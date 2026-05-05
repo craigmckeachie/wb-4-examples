@@ -20,11 +20,18 @@ public class Person {
         this.firstName = firstName;
     }
 
-    //methods
-    public void displayPerson(){
-        System.out.println(firstName);
-        System.out.println(lastName);
-        System.out.println(birthDate);
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
+
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    //methods
+    public String toString() {
+        return firstName + " " + lastName + " " + birthDate;
+    }
+
 
 }
