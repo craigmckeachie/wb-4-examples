@@ -61,6 +61,10 @@ public class Person {
         return nice;
     }
 
+    public String getFullName(){
+        return firstName + " " + lastName;
+    }
+
     //methods
     public String toString() {
         return firstName + " " + lastName + " " + birthDate;

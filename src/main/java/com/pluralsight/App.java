@@ -27,6 +27,11 @@ public class App {
 
         Person person3 = new Person("Luka","Doncic",LocalDate.of(1999, 2, 28),false);
         System.out.println(person3);
+        System.out.println(person3.getFullName());
+
+
+
+
 
 
 
